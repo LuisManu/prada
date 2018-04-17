@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>bag_icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="bag_icon">
+            <g id="icons/icon_shopping_bag_mobile">
+                <rect id="active_area" fill-opacity="0" fill="#FFFFFF" x="0" y="0" width="32" height="32"></rect>
+                <path d="M24.5280136,26 C24.7889078,26 25,25.778963 25,25.5057778 L25,11.6945185 C25,11.4213333 24.7889078,11.2002963 24.5280136,11.2002963 L20.7072144,11.2099399 C20.7072144,8.89260652 18.52948,6.61608887 16.0975952,6.61608887 C13.6657104,6.61608887 11.6254272,8.89616207 11.6254272,11.2099399 L7.47198642,11.2002963 C7.21109225,11.2002963 7,11.4213333 7,11.6945185 L7,25.5057778 C7.00113186,25.778963 7.21222411,26 7.47198642,26 L24.5280136,26 Z M16.249939,7.57904053 C18.0898345,7.57904053 19.7431734,9.4391828 19.7431734,11.2019428 L12.6715791,11.2019428 C12.6715791,9.43564134 14.4100435,7.57904053 16.249939,7.57904053 Z M8,25 L24,25 L24,12 L8,12 L8,25 Z" id="Fill-1" fill="#000000"></path>
+            </g>
+        </g>
+    </g>
+</svg>

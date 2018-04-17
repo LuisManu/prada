@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>search_icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="search_icon">
+            <g id="icons/icon_search_mobile">
+                <rect id="active_area" fill-opacity="0" fill="#FFFFFF" x="0" y="0" width="32" height="32"></rect>
+                <path d="M24,23.1022999 L19.1700216,18.3311898 C20.1173661,17.2360226 20.6930513,15.8178091 20.6930513,14.2681756 C20.6930513,10.8114908 17.8462413,8 14.3464119,8 C10.84681,8 8,10.8114908 8,14.2681756 C8,17.7248603 10.84681,20.5363511 14.3464119,20.5363511 C15.8143978,20.5363511 17.1629705,20.0369549 18.2399636,19.2077729 L23.0910952,24 L24,23.1022999 Z M14.3473217,19.2666311 C11.5566928,19.2666311 9.28647788,17.023504 9.28647788,14.2681756 C9.28647788,11.5117239 11.555783,9.26882143 14.3473217,9.26882143 C17.1381781,9.26882143 19.408393,11.51105 19.408393,14.267277 C19.408393,17.023504 17.1372683,19.2666311 14.3473217,19.2666311 L14.3473217,19.2666311 Z" id="Fill-1" fill="#000000"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,212 @@
+/* =======================================================
+	Custom
+======================================================= */
+html, body {
+	height: 100%;
+}
+a:hover {
+  text-decoration: none;
+}
+.bg-black {
+	background-color: #000 !important;
+}
+.font-12px {
+	font-size: 12px;
+}
+.opacity-4 {
+	opacity: .4;
+}
+.invert-icon {
+	filter: invert(100%);
+}
+.social-icons {
+	font-size: 12px;
+	margin-left: -4px;
+}
+.social-icons img {
+	opacity: .4;
+	max-width: 15px;
+}
+.social-icons img:hover {
+	opacity: 1;
+}
+.small-arrow {
+	max-width: 8px;
+}
+/* Arrow Rotate */
+#navbar-menu-modal .modal-footer a.collapsed img,
+a.collapsed img.rotate-arrow {
+	transform: rotate(0deg);
+}
+#navbar-menu-modal .modal-footer a img,
+a img.rotate-arrow {
+	transform: rotate(180deg);
+	-webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 500ms;
+}
+
+/* ========================================================
+	Desktop/Tablet Navbar
+======================================================== */
+#desktop-tablet-navbar {
+    -webkit-transition: background-color .6s ease; /* For Safari 3.1 to 6.0 */
+    transition: background-color .6s ease;
+}
+#desktop-tablet-navbar:hover {
+	background-color: #FFF !important;
+}
+#desktop-tablet-navbar:hover .navbar-brand {
+	content: url('../img/brand/desk_logo_nero.png');
+}
+#desktop-tablet-navbar:hover a {
+	color: #000 !important;
+}
+#desktop-tablet-navbar:hover .invert-icon {
+	filter: none;
+}
+#desktop-tablet-navbar:hover button {
+	color: #000 !important;
+}
+#desktop-tablet-navbar:hover .navbar-toggler-icon {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+}
+#desktop-tablet-navbar.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+
+
+/* =======================================================
+	Mobile Navbar
+======================================================= */
+#mobile-navbar {
+	justify-content: flex-start;
+}
+#mobile-navbar .navbar-toggler-icon {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+}
+#mobile-navbar .navbar-brand {
+	width: 116px;
+}
+#mobile-navbar .btn-outline-dark:hover {
+    color: initial;
+    background-color: initial;
+    border-color: initial;
+}
+
+/* =======================================================
+	Navbar Menu Modal
+======================================================= */
+#navbar-menu-modal, #navbar-menu-modal a {
+	color: #989898;
+	font-size: 12px;
+}
+#navbar-menu-modal .modal-footer img {
+	opacity: .4;
+}
+#navbar-menu-modal .modal-footer a:hover {
+	text-decoration: underline;
+}
+#navbar-menu-modal a:hover {
+	color: #222;
+}
+#navbar-menu-modal .modal-dialog {
+	max-width: none;
+	margin: initial;
+}
+
+
+/* =========================================================
+	Search Modal
+========================================================= */
+#search-modal .modal-content {
+	background-color: rgba(255,255,255,0.001);
+}
+#search-modal .form-control {
+	background-color: rgba(255,255,255,0.92);
+}
+#search-modal .form-control, #search-modal .input-group-text {
+	background-color: transparent;
+}
+#search-modal .modal-dialog {
+	/*max-width: 600px;*/
+}
+#search-modal input[type="radio"] {
+	display: none;
+}
+#search-modal input[type="radio"] + label:before {
+    content: "";
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+    background: #f7f7f7;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    margin-right: 5px;
+    margin-bottom: 2px;
+    float: none;
+}
+#search-modal input[type="radio"]:checked + label span:not(.label) {
+    background: black;
+    width: 9px;
+    height: 9px!important;
+    vertical-align: middle;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 9px;
+    margin-left: -21px;
+}
+
+
+/* ============================================================
+	Index Carousel
+============================================================ */
+#desktop-carousel,
+#tablet-carousel {
+	height: 100%;
+	overflow: hidden;
+}
+#desktop-carousel .carousel-indicators {
+	top: 60%;
+	bottom: auto;
+	left: 3%;
+	right: auto;
+	transform: translate(-3%, -60%);
+	display: block;
+}
+#desktop-carousel .carousel-indicators li {
+	margin-bottom: 10px;
+	height: auto;
+	text-indent: 0;
+	width: auto;
+}
+#desktop-carousel .carousel-indicators li.active a::before {
+	content: '_';
+}
+@media (max-width: 1100px) {
+	.carousel-item .img-fluid {
+	  max-height: 100% !important;
+	  width: auto !important;
+	  max-width: none !important;
+	}
+}
+#tablet-carousel .carousel-indicators li {
+	height: 8px;
+	width: 8px;
+	text-indent: 0;
+}
+#tablet-carousel .carousel-indicators li a {
+	bottom: 100%;
+	width: 200px;
+	display: none;
+	transform: translate(-20%);
+}
+
+
+/* ============================================================
+	Bootstrap Overrides
+============================================================ */
+.modal-backdrop {
+	background-color: rgba(255,255,255,0.92);
+	opacity: 1 !important;
+}

@@ -1,0 +1,559 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="static/icons/favicon.ico">
+
+    <title>PRADA - OFFICIAL WEBSITE</title>
+
+
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="static/css/styles.css">
+  </head>
+
+  <body>
+    <!-- Desktop / Tablet Navbar -->
+    <nav class="navbar navbar-dark bg-transparent py-0 px-5 d-none d-sm-flex" id="desktop-tablet-navbar" style="z-index: 1031;">
+      <a class="navbar-brand" href="#"><img src="static/img/brand/desk_logo_bianco.png"></a>
+
+      <div class="navbar navbar-expand navbar-dark bg-transparent ml-auto">
+        <div class="collapse navbar-collapse" id="navbarsExample02">
+          <ul class="navbar-nav mr-auto font-12px">
+            <li class="nav-item pr-4">
+              <a class="nav-link text-white" href="#">CONTACT</a>
+            </li>
+            <li class="nav-item pr-4">
+              <a class="nav-link text-white" href="#">LOGIN / REGISTER</a>
+            </li>
+            <li class="nav-item pr-4">
+              <a class="nav-link p-0" href="#" data-toggle="modal" data-target="#search-modal"><img class="invert-icon" src="static/icons/icon_search.svg"></a>
+            </li>
+            <li class="nav-item pr-4">
+              <a class="nav-link p-0" href="#"><img class="invert-icon" src="static/icons/icon_shopping_bag.svg"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <button class="navbar-toggler border-0 text-white" type="button" data-toggle="modal" data-target="#navbar-menu-modal">
+        <span class="font-12px">MENU</span>
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </nav>
+
+
+    <!-- Mobile Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-white p-0" id="mobile-navbar">
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <a class="navbar-brand ml-2" href="#"><img class="img-fluid align-baseline" src="static/img/brand/mob_logo_nero.png"></a>
+
+      <ul class="navbar-nav d-inline ml-auto">
+        <li class="nav-item d-inline-block">
+          <a class="nav-link" href="#" data-toggle="modal" data-target="#search-modal"><img src="static/icons/icon_search.svg"></a>
+        </li>
+        <li class="nav-item d-inline-block">
+          <a class="nav-link" href="#"><img src="static/icons/icon_shopping_bag.svg"></a>
+        </li>
+      </ul>
+
+
+      <div class="collapse navbar-collapse small" id="navbarsExample07">
+        <ul class="navbar-nav mr-auto px-4">
+          <li class="nav-item active">
+            <a class="nav-link text-secondary" href="#">< home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-secondary" href="#">E-STORE</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-secondary" href="#">COLLECTIONS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-secondary" href="#">A FUTURE ARCHIVE</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-secondary" href="#">FRAGRANCE</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-secondary" href="#">EYEWEAR</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-secondary" href="#">STORE LOCATOR</a>
+          </li>
+        </ul>
+
+        <ul class="navbar-nav mr-auto my-4">
+          <li class="nav-item bg-light px-4 py-3">
+            <a class="text-secondary" href="#">
+              <img class="mr-2" src="static/icons/login.png" style="height: 11px;"> LOG IN / REGISTER
+            </a>
+          </li>
+        </ul>
+
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item px-4">
+            <ul class="list-inline social-icons">
+              <li class="list-inline-item pr-3"><img src="static/icons/social/fb_over.png"></li>
+              <li class="list-inline-item pr-3"><img src="static/icons/social/twt_over.png"></li>
+              <li class="list-inline-item pr-3"><img src="static/icons/social/inst_over.png"></li>
+              <li class="list-inline-item pr-3"><img src="static/icons/social/ytb_over.png"></li>
+              <li class="list-inline-item pr-3"><img src="static/icons/social/gp_over.png"></li>
+              <li class="list-inline-item float-right"><img src="static/icons/social/subscribe.png"></li>
+            </ul>
+          </li>
+          <li class="list-group-item pl-4 pr-3">
+            <a class="collapsed btn-block text-secondary" data-toggle="collapse" href="#mobile-search-collapse" role="button" aria-expanded="false" aria-controls="mobile-search-collapse" href="#">
+              SEARCH <img class="float-right opacity-4" src="static/icons/icon_search.svg">
+            </a>
+            <div class="collapse" id="mobile-search-collapse" data-parent="#mobile-navbar">
+              <form>
+                <div class="input-group">
+                  <input type="text" class="form-control rounded-0" placeholder="Type here to search" aria-label="Type here to search">
+                  <div class="input-group-append">
+                    <span class="input-group-text rounded-0"><img src="static/icons/icon_search.svg"></span>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </li>
+          <li class="list-group-item">
+            <div class="container">
+              <div class="row">
+                <div class="col-6 offset-3">
+                  <div class="text-center">PRADA CLIENT SERVICE</div>
+                  <button type="button" class="btn btn-outline-dark btn-block rounded-0">Contact us</button>
+                  <button type="button" class="btn btn-outline-dark btn-block rounded-0">FAQ</button>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li class="list-group-item">
+            <a class="collapsed btn-block text-secondary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" href="#">
+              CHANGE LANGUAGE <img class="float-right mt-2 rotate-arrow opacity-4" src="static/icons/arrow_menu_down_small_nera.png">
+            </a>
+            <div class="collapse mt-4 mb-2" id="collapseExample" data-parent="#mobile-navbar">
+              <div><a class="text-secondary" href="#">ITALIANO</a></div>
+              <div><a class="text-secondary" href="#">ENGLISH</a></div>
+            </div>
+          </li>
+
+          <li class="list-group-item">
+            <a class="collapsed btn-block text-secondary" data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample" href="#">
+              CHANGE COUNTRY <img class="float-right mt-2 rotate-arrow opacity-4" src="static/icons/arrow_menu_down_small_nera.png">
+            </a>
+            <div class="collapse" id="collapseExample2" data-parent="#mobile-navbar">
+              <div class="row p-5">
+                <div class="col-6">
+                  <ul class="list-unstyled">
+                    <li class="mb-3">E-STORE</li>
+                    <li><a class="text-secondary" href="#">AUSTRALIA</a></li>
+                    <li><a class="text-secondary" href="#">AUSTRIA</a></li>
+                    <li><a class="text-secondary" href="#">BELGIUM</a></li>
+                    <li><a class="text-secondary" href="#">CANADA</a></li>
+                    <li><a class="text-secondary" href="#">CHINA</a></li>
+                    <li><a class="text-secondary" href="#">DENMARK</a></li>
+                    <li><a class="text-secondary" href="#">FINLAND</a></li>
+                    <li><a class="text-secondary" href="#">FRANCE</a></li>
+                    <li><a class="text-secondary" href="#">GERMANY</a></li>
+                    <li><a class="text-secondary" href="#">GREECE</a></li>
+                    <li><a class="text-secondary" href="#">IRELAND</a></li>
+                    <li><a class="text-secondary font-weight-bold" href="#">ITALY</a></li>
+                    <li><a class="text-secondary" href="#">JAPAN</a></li>
+                    <li><a class="text-secondary" href="#">LUXEMBOURG</a></li>
+                    <li><a class="text-secondary" href="#">MONACO</a></li>
+                    <li><a class="text-secondary" href="#">NETHERLANDS</a></li>
+                    <li><a class="text-secondary" href="#">NEW ZEALAND</a></li>
+                    <li><a class="text-secondary" href="#">NORWAY</a></li>
+                    <li><a class="text-secondary" href="#">PORTUGAL</a></li>
+                    <li><a class="text-secondary" href="#">SPAIN</a></li>
+                    <li><a class="text-secondary" href="#">SWEDEN</a></li>
+                    <li><a class="text-secondary" href="#">SWITZERLAND</a></li>
+                    <li><a class="text-secondary" href="#">UNITED KINGDOM</a></li>
+                    <li><a class="text-secondary" href="#">UNITED STATES</a></li>
+                  </ul>
+                </div>
+
+                <div class="col-6">
+                  <ul class="list-unstyled">
+                    <li class="mb-3">EXPLORE OUR WEBSITE</li>
+                    <li><a class="text-secondary" href="#">BRAZIL</a></li>
+                    <li><a class="text-secondary" href="#">HONG KONG</a></li>
+                    <li><a class="text-secondary" href="#">MALAYSIA</a></li>
+                    <li><a class="text-secondary" href="#">RUSSIAN FEDERATION</a></li>
+                    <li><a class="text-secondary" href="#">SINGAPORE</a></li>
+                    <li><a class="text-secondary" href="#">SOUTH KOREA</a></li>
+                    <li><a class="text-secondary" href="#">TAIWAN</a></li>
+                    <li><a class="text-secondary" href="#">THAILAND</a></li>
+                    <li><a class="text-secondary" href="#">UNITED ARAB EMIRATES</a></li>
+                    <li><a class="text-secondary" href="#">REST OF THE WORLD</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+
+        <div class="px-4 py-5">
+          <div class="mb-3">
+            <div class="pb-2"><a class="text-secondary" href="#">FONDAZIONE PRADA</a></div>
+            <div class="pb-2"><a class="text-secondary" href="#">PRADA GROUP</a></div>
+            <div class="pb-2"><a class="text-secondary" href="#">CORPORATE SOCIAL RESPONSIBILITY</a></div>
+            <div class="pb-2"><a class="text-secondary" href="#">LUNAROSSA</a></div>
+          </div>
+          <div>
+            <div class="pb-2">
+              <a class="text-secondary" href="#">LEGAL NOTICE</a> <span class="text-secondary">-</span> 
+              <a class="text-secondary" href="#">PRIVACY</a> <span class="text-secondary">-</span>  
+              <a class="text-secondary" href="#">COOKIE POLICY</a> <span class="text-secondary">-</span>  
+              <a class="text-secondary" href="#">TERMS AND CONDITIONS OF SALE</a>
+            </div>
+            <div class="pb-2 text-muted">
+              © PRADA S.P.A. 2007-2018 | P.IVA IT10115350158
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+
+    <!-- Navbar Menu Modal -->
+    <div class="modal fade" id="navbar-menu-modal" tabindex="-1" role="dialog" aria-labelledby="navbar-menu-modal-label" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content border-0 rounded-0" id="navbar-menu-modal-accordion">
+          <div class="modal-body px-4">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-3 col-lg-2">
+                <a href="#"><img src="static/img/brand/desk_logo_nero.png"></a>
+              </div>
+              <div class="col-md-9 col-lg-10 pt-2 px-4">
+                <div class="mb-5">
+                  <div class="mb-2"><a href="#">E-STORE</a></div>
+                  <div class="mb-2"><a href="#">COLLECTIONS</a></div>
+                  <div class="mb-2"><a href="#">A FUTURE ARCHIVE</a></div>
+                  <div class="mb-2"><a href="#">FRAGRANCE</a></div>
+                  <div class="mb-2"><a href="#">EYEWEAR</a></div>
+                  <div class="mb-2"><a href="#">STORE LOCATOR</a></div>
+                </div>
+
+                <ul class="list-inline social-icons mb-2">
+                  <li class="list-inline-item">
+                    <a href="#"><img class="img-fluid" src="static/icons/social/fb_over.png"></a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#"><img class="img-fluid" src="static/icons/social/twt_over.png"></a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#"><img class="img-fluid" src="static/icons/social/inst_over.png"></a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#"><img class="img-fluid" src="static/icons/social/ytb_over.png"></a>
+                  </li>
+                  <li class="list-inline-item mr-4">
+                    <a href="#"><img class="img-fluid" src="static/icons/social/gp_over.png"></a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#"><img class="img-fluid mr-1" src="static/icons/social/subscribe.png">newsletter sign up</a>
+                  </li>
+                  <li class="float-right"><span class="text-dark">Prada Client Service:</span> <a href="#">Contact Us</a> | <a href="#">FAQ</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          </div>
+
+          <div class="modal-footer">
+            <div class="col-md-9 col-lg-10 px-4">
+              <ul class="list-inline m-0">
+                <li class="list-inline-item">
+                  _Language <a class="collapsed" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">ENGLISH <img class="img-fluid small-arrow" src="static/icons/arrow_menu_down_small_nera.png"></a>
+                </li>
+                <li class="list-inline-item">
+                  _Location <a class="collapsed" data-toggle="collapse" href="#multiCollapseExample2" role="button" aria-expanded="false" aria-controls="multiCollapseExample2">ITALY <img class="img-fluid small-arrow" src="static/icons/arrow_menu_down_small_nera.png"></a>
+                </li>
+                <li class="float-right"><a class="collapsed" data-toggle="collapse" href="#multiCollapseExample3" role="button" aria-expanded="false" aria-controls="multiCollapseExample3"><img class="img-fluid" src="static/icons/arrow_menu_down_nera.png" style="max-width: 15px;"></a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="collapse" id="multiCollapseExample1" data-parent="#navbar-menu-modal-accordion">
+            <div class="card card-body rounded-0 border-left-0 border-right-0 border-bottom-0">
+              <div class="offset-md-2">ITALIANO - ENGLISH</div>
+            </div>
+          </div>
+          <div class="collapse" id="multiCollapseExample2" data-parent="#navbar-menu-modal-accordion">
+            <div class="card card-body rounded-0 border-left-0 border-right-0 border-bottom-0">
+              <div class="row">
+                <div class="col-md-4 offset-md-2">
+                  <div class="text-dark mb-4">E-STORE</div>
+                  <div class="row">
+                    <div class="col">
+                      <ul class="list-unstyled">
+                        <li>AUSTRALIA</li>
+                        <li>AUSTRIA</li>
+                        <li>BELGIUM</li>
+                        <li>CANADA</li>
+                        <li>CHINA</li>
+                        <li>DENMARK</li>
+                        <li>FINLAND</li>
+                        <li>FRANCE</li>
+                      </ul>
+                    </div>
+
+                    <div class="col">
+                      <ul class="list-unstyled">
+                        <li>GERMANY</li>
+                        <li>GREECE</li>
+                        <li>IRELAND</li>
+                        <li>ITALY</li>
+                        <li>JAPAN</li>
+                        <li>LUXEMBOURG</li>
+                        <li>MONACO</li>
+                        <li>NETHERLANDS</li>
+                      </ul>
+                    </div>
+
+                    <div class="col">
+                      <ul class="list-unstyled">
+                        <li>NEW ZEALAND</li>
+                        <li>NORWAY</li>
+                        <li>PORTUGAL</li>
+                        <li>SPAIN</li>
+                        <li>SWEDEN</li>
+                        <li>SWITZERLAND</li>
+                        <li>UNITED KINGDOM</li>
+                        <li>UNITED STATES</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="text-dark mb-4">EXPLORE OUR WEBSITE</div>
+                  <div class="row">
+                    <div class="col">
+                      <ul class="list-unstyled">
+                        <li>BRAZIL</li>
+                        <li>HONG KONG</li>
+                        <li>MALAYSIA</li>
+                        <li>RUSSIAN FEDERATION</li>
+                        <li>SINGAPORE</li>
+                        <li>SOUTH KOREA</li>
+                        <li>TAIWAN</li>
+                        <li>THAILAND</li>
+                      </ul>
+                    </div>
+
+                    <div class="col">
+                      <ul class="list-unstyled">
+                        <li>UNITED ARAB EMIRATES</li>
+                      </ul>
+                    </div>
+                    <div class="col">
+                      <ul class="list-unstyled">
+                        <li>REST OF THE WORLD</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="collapse" id="multiCollapseExample3" data-parent="#navbar-menu-modal-accordion">
+            <div class="card card-body px-0 rounded-0 border-left-0 border-right-0 border-bottom-0">
+              <div class="row">
+                <div class="col offset-md-2 px-5">
+                  <div class="pb-2">FONDAZIONE PRADA</div>
+                  <div class="pb-2">PRADA GROUP</div>
+                  <div class="pb-2">CORPORATE SOCIAL RESPONSIBILITY</div>
+                  <div class="pb-2">LUNAROSSA</div>
+                  <div class="pb-2">LEGAL NOTICE - PRIVACY - COOKIE POLICY - TERMS AND CONDITIONS OF SALE</div>
+                  <div class="pb-2">© PRADA S.P.A. 2007-2018 | P.IVA IT10115350158</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Search Modal -->
+    <div class="modal fade" id="search-modal" tabindex="-1" role="dialog" aria-labelledby="search-modal-title" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg mt-5" role="document">
+        <div class="modal-content border-0">
+          <div class="modal-body p-0">
+
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-lg-9 mx-auto">
+
+                  <div class="input-group input-group-sm">
+                    <input type="text" class="form-control border-dark rounded-0" aria-label="Default" aria-describedby="inputGroup-sizing-default" placeholder="Type here to search">
+                    <div class="input-group-append">
+                      <span class="input-group-text border-dark rounded-0 px-4" id="inputGroup-sizing-default"><img src="static/icons/icon_search.svg"></span>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+
+
+            <ul class="list-inline mt-3 text-center">
+              <li class="list-inline-item mr-3">
+                search for
+              </li>
+              <li class="list-inline-item mr-3">
+                <input id="search-e-store" type="radio" name="search" value="e-store" checked>
+                <label for="search-e-store">
+                  <span></span>
+                  E-Store
+                </label>
+              </li>
+              <li class="list-inline-item mr-3">
+                <input id="a-future-archive" type="radio" name="search" value="a future archive">
+                <label for="a-future-archive">
+                  <span></span>
+                  A FUTURE ARCHIVE
+                </label>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Desktop Body/Carousel -->
+    <div id="desktop-carousel" class="carousel slide fixed-top position-absolute d-none d-lg-block" data-ride="carousel" data-interval="false">
+      <ol class="carousel-indicators m-0 text-white">
+        <li class="bg-transparent active" data-target="#desktop-carousel" data-slide-to="0"><a class="text-white" href="#">365 Spring Summer 2018</a></li>
+        <li class="bg-transparent" data-target="#desktop-carousel" data-slide-to="1"><a class="text-white" href="#">FW 2018 womenswear</a></li>
+        <li class="bg-transparent" data-target="#desktop-carousel" data-slide-to="2"><a class="text-white" href="#">Woman</a></li>
+        <li class="bg-transparent" data-target="#desktop-carousel" data-slide-to="3"><a class="text-white" href="#">Man</a></li>
+        <li class="bg-transparent" data-target="#desktop-carousel" data-slide-to="4"><a class="text-white" href="#">Store Locator</a></li>
+      </ol>
+
+      <div class="carousel-inner h-100">
+        <div class="carousel-item h-100 active">
+          <video preload="auto" loop="loop" muted="muted" autoplay="autoplay" style="top: 0px; left: 0px; right: auto; bottom: auto; min-width: 100%; min-height: 0px; width: 1366px; height: 768.375px;">
+            <source src="content/cq5dam.video.hq.mp4" type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
+            <source src="content/cq5dam.video.firefoxhq.ogg" type="video/ogg; codecs=&quot;theora,vorbis&quot;">
+          </video>
+        </div>
+
+        <div class="carousel-item h-100">
+          <img class="img-fluid" src="content/womenswear.jpg" alt="Women's Wear">
+        </div>
+
+        <div class="carousel-item h-100">
+          <img class="img-fluid" src="content/women.jpg" alt="Women">
+        </div>
+
+        <div class="carousel-item h-100">
+          <img class="img-fluid" src="content/man.jpg" alt="Man">
+        </div>
+
+        <div class="carousel-item h-100">
+          <img class="img-fluid" src="content/storelocator.jpg" alt="Store Locator">
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Tablet Body/Carousel -->
+    <div id="tablet-carousel" class="carousel slide fixed-top position-absolute d-none d-sm-block" data-ride="carousel" data-interval="false">
+      <ol class="carousel-indicators mb-1">
+        <li data-target="#tablet-carousel" data-slide-to="0" class="rounded-circle mr-2 active"></li>
+        <li data-target="#tablet-carousel" data-slide-to="1" class="rounded-circle mr-2"></li>
+        <li data-target="#tablet-carousel" data-slide-to="2" class="rounded-circle mr-2"></li>
+        <li data-target="#tablet-carousel" data-slide-to="3" class="rounded-circle mr-2"></li>
+        <li data-target="#tablet-carousel" data-slide-to="4" class="rounded-circle mr-2"></li>
+      </ol>
+
+      <div class="carousel-inner h-100">
+        <div class="carousel-item h-100 active">
+          <video preload="auto" loop="loop" muted="muted" autoplay="autoplay" style="top: 0px; left: 0px; right: auto; bottom: auto; min-width: 100%; min-height: 0px; width: 1366px; height: 768.375px;">
+            <source src="content/cq5dam.video.hq.mp4" type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
+            <source src="content/cq5dam.video.firefoxhq.ogg" type="video/ogg; codecs=&quot;theora,vorbis&quot;">
+          </video>
+
+          <div class="carousel-caption pb-3"><a class="text-white" href="#">365 Spring Summer 2018</a></div>
+        </div>
+
+        <div class="carousel-item h-100">
+          <img class="img-fluid" src="content/womenswear.jpg" alt="Women's Wear">
+          <div class="carousel-caption pb-3"><a class="text-white" href="#">FW 2018 womenswear</a></div>
+        </div>
+
+        <div class="carousel-item h-100">
+          <img class="img-fluid" src="content/women.jpg" alt="Women">
+          <div class="carousel-caption pb-3"><a class="text-white" href="#">Woman</a></div>
+        </div>
+
+        <div class="carousel-item h-100">
+          <img class="img-fluid" src="content/man.jpg" alt="Man">
+          <div class="carousel-caption pb-3"><a class="text-white" href="#">Man</a></div>
+        </div>
+
+        <div class="carousel-item h-100">
+          <img class="img-fluid" src="content/storelocator.jpg" alt="Store Locator">
+          <div class="carousel-caption pb-3"><a class="text-white" href="#">Store Locator</a></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mobile Body -->
+    <div class="container-fluid d-sm-none">
+      <div class="row">
+        <div class="col-12 pb-4">
+          <img class="img-fluid" src="content/mobile/365_spring_summer_2018.jpg">
+          <a class="text-secondary" href="#">365 Spring Summer 2018 >></a>
+        </div>
+
+        <div class="col-12 pb-4">
+          <img class="img-fluid" src="content/mobile/womenswear.jpg">
+          <a class="text-secondary" href="#">FW 2018 womenswear >></a>
+        </div>
+
+        <div class="col-12 pb-4">
+          <img class="img-fluid" src="content/mobile/woman.jpg">
+          <a class="text-secondary" href="#">Woman >></a>
+        </div>
+
+        <div class="col-12 pb-4">
+          <img class="img-fluid" src="content/mobile/man.jpg">
+          <a class="text-secondary" href="#">Man >></a>
+        </div>
+
+        <div class="col-12 pb-4">
+          <img class="img-fluid" src="content/mobile/store_locator.jpg">
+          <a class="text-secondary" href="#">Store Locator >></a>
+        </div>
+
+        <div class="col-12 py-4">
+          <a class="btn btn-dark btn-block rounded-0 bg-black" href="#mobile-navbar">_back to top</a>
+        </div>
+      </div>
+    </div>
+
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="static/js/scripts.js"></script>
+  </body>
+</html>
